@@ -1,6 +1,25 @@
+# Restaurant landing page
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+### Getting Started
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-name>
+   ```
+
+2. **Install the dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
 First, run the development server:
 
@@ -10,8 +29,6 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,17 +37,42 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### `npm run build`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Deploy on Vercel
+```bash
+npm run build
+# or
+yarn run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next JS
+- Tailwind CSS
+- React Icons
+- Eslint
+- TypeScript
+
+## Third-Party Libraries
+
+The project utilizes the following third-party libraries and tools:
+
+- **[react](https://reactjs.org):** A JavaScript library for building user interfaces.
+- **[react-dom](https://reactjs.org/docs/react-dom.html):** Provides DOM-specific methods for React.
+- **[react-icons](https://react-icons.github.io/react-icons):** A library for including scalable icons in React.
+- **[react-router-dom](https://reactrouter.com/en/main):** A collection of navigational components for React applications.
+- **[react](https://reactjs.org):** A JavaScript library for building user interfaces.  
+- **[react-dom](https://reactjs.org/docs/react-dom.html):** Provides DOM-specific methods for React.  
+- **[react-icons](https://react-icons.github.io/react-icons):** A library for including scalable icons in React.  
+- **[react-router-dom](https://reactrouter.com/en/main):** A collection of navigational components for React applications.  
+- **[next.js](https://nextjs.org):** A React framework for production, enabling server-side rendering and static site generation.  
+- **[tailwindcss](https://tailwindcss.com):** A utility-first CSS framework for rapidly building custom user interfaces.  
+- **[eslint](https://eslint.org):** A tool for identifying and fixing problems in JavaScript and TypeScript code.  
+- **[typescript](https://www.typescriptlang.org):** A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
